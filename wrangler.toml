@@ -12,15 +12,15 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 
 [env.production]
 name = "cloudflare-docker-proxy"
-# routes = [
-#   { pattern = "docker.nagisa.icu", custom_domain = true },
-#   { pattern = "quay.nagisa.icu", custom_domain = true },
-#   { pattern = "gcr.nagisa.icu", custom_domain = true },
-#   { pattern = "k8s-gcr.nagisa.icu", custom_domain = true },
-#   { pattern = "k8s.nagisa.icu", custom_domain = true },
-#   { pattern = "ghcr.nagisa.icu", custom_domain = true },
-#   { pattern = "cloudsmith.nagisa.icu", custom_domain = true },
-# ]
+ routes = [
+   { pattern = "docker.nagisa.icu", custom_domain = true },
+   { pattern = "quay.nagisa.icu", custom_domain = true },
+   { pattern = "gcr.nagisa.icu", custom_domain = true },
+   { pattern = "k8s-gcr.nagisa.icu", custom_domain = true },
+   { pattern = "k8s.nagisa.icu", custom_domain = true },
+   { pattern = "ghcr.nagisa.icu", custom_domain = true },
+   { pattern = "cloudsmith.nagisa.icu", custom_domain = true },
+ ]
 
 [env.production.vars]
 MODE = "production"
@@ -28,7 +28,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-# route = { pattern = "docker-staging.libcuda.so", custom_domain = true }
+ route = { pattern = "docker-staging.nagisa.icu", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
