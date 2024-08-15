@@ -19,7 +19,7 @@ const routes = {
   "ecr.nagisa.icu": "https://public.ecr.aws",
 
   // staging
-  "docker-staging.libcuda.so": dockerHub,
+  "docker-staging.nagisa.icu": dockerHub,
 };
 
 function routeByHosts(host) {
