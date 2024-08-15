@@ -11,7 +11,7 @@ const routes = {
   "quay.nagisa.icu": "https://quay.io",
   "gcr.nagisa.icu": "https://gcr.io",
   "k8s-gcr.nagisa.icu": "https://k8s.gcr.io",
-  "k8s.magisa.icu": "https://registry.k8s.io",
+  "k8s.nagisa.icu": "https://registry.k8s.io",
   "ghcr.nagisa.icu": "https://ghcr.io",
   "cloudsmith.nagisa.icu": "https://docker.cloudsmith.io",
   "ecr.nagisa.icu": "https://public.ecr.aws",
